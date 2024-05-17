@@ -1,1 +1,5 @@
-hello
+Name: Marozau Maksim
+Age: 45
+Animals: 2
+Salary: 2500
+Dick length: undefined
