@@ -1,0 +1,74 @@
+Title: Mobile App Crashes on Launch After Latest Update
+
+ID: BR-2024-002
+
+Reporter: John Smith
+
+Date: May 18, 2024
+
+Priority: Critical
+
+Severity: Blocker
+
+Status: Open
+
+Environment:
+
+OS: Android 12
+Device: Samsung Galaxy S21
+App Version: 2.5.1
+Network: Wi-Fi and 4G
+Description:
+After updating to the latest version of the mobile app, the application crashes immediately upon launch. This prevents users from accessing any features of the app, rendering it unusable.
+
+Steps to Reproduce:
+
+Update the app to version 2.5.1 from the Google Play Store.
+Attempt to launch the app.
+Expected Result:
+The app should launch successfully and display the home screen.
+
+Actual Result:
+The app crashes instantly and returns the user to the home screen of the device.
+
+Attachments:
+
+Crash logs: crash_log_2024_05_18.txt
+Video recording of the crash.
+Screenshot of the error message.
+Additional Information:
+
+This issue affects all users who have updated to version 2.5.1.
+Uninstalling and reinstalling the app does not resolve the issue.
+Clearing the app cache and data also does not fix the problem.
+The issue is not present in version 2.5.0.
+Possible Impact:
+
+Complete loss of app functionality for all users on the latest version.
+Negative user experience and potential loss of user base.
+Increased support queries and negative reviews on app stores.
+Suggested Fix:
+Investigate the changes introduced in version 2.5.1, particularly those affecting the app initialization and startup processes. Revert or patch the problematic code.
+
+Assigned To: Alice Johnson
+
+Comments:
+
+[May 18, 2024, 15:00] Alice Johnson: Reviewing recent commits related to the app launch sequence.
+Resolution:
+
+Date:
+Resolved By:
+Resolution:
+Verification:
+
+Date:
+Verified By:
+Verification:
+Close:
+
+Date:
+Closed By:
+History:
+
+[May 18, 2024, 15:00] Alice Johnson: Initial investigation started.
