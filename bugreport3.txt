@@ -1,0 +1,73 @@
+Title: Search Function Returns No Results for Valid Queries
+
+ID: BR-2024-003
+
+Reporter: Maria Gonzalez
+
+Date: May 18, 2024
+
+Priority: Medium
+
+Severity: Major
+
+Status: Open
+
+Environment:
+
+OS: macOS Monterey 12.3
+Browser: Safari, version 15.4
+Application Version: 4.2.0
+Device: MacBook Pro (M1)
+Description:
+The search function on the website fails to return any results for valid queries. This issue occurs regardless of the keywords entered, resulting in an empty result set even for queries that should return multiple results.
+
+Steps to Reproduce:
+
+Navigate to the website's homepage.
+Enter a valid search term in the search bar (e.g., "laptop", "smartphone", "camera").
+Press Enter or click the search icon.
+Expected Result:
+The search should return a list of relevant results matching the search term.
+
+Actual Result:
+The search returns no results and displays a message stating "No results found."
+
+Attachments:
+
+Screenshot of the search results page with no results.
+Log file: search_logs_2024_05_18.log
+Additional Information:
+
+The issue persists across different browsers (Chrome, Firefox) and devices (Windows, Android).
+The problem does not occur in the staging environment.
+The search functionality was working correctly prior to the last update (version 4.2.0).
+Possible Impact:
+
+Users cannot find products or information they are searching for, leading to a poor user experience.
+Potential loss of sales and user engagement.
+Increased customer support queries.
+Suggested Fix:
+Investigate the search index and the query processing logic. Ensure that the search database is correctly indexed and that the queries are being processed as expected.
+
+Assigned To: Robert Thompson
+
+Comments:
+
+[May 18, 2024, 15:30] Robert Thompson: Starting analysis of the search function's backend code.
+Resolution:
+
+Date:
+Resolved By:
+Resolution:
+Verification:
+
+Date:
+Verified By:
+Verification:
+Close:
+
+Date:
+Closed By:
+History:
+
+[May 18, 2024, 15:30] Robert Thompson: Initial investigation started.
